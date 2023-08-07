@@ -1,0 +1,91 @@
+﻿@model IEnumerable<BookingWithDetails>
+
+@{
+    ViewData["Title"] = "Invoice page";
+}
+
+<div class="page-header d-md-flex justify-content-between">
+    <div>
+        <h3>Invoices</h3>
+        <nav aria-label="breadcrumb" class="d-flex align-items-start">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a asp-action="index" asp-controller="home">Invoices Management</a>
+                </li>
+            </ol>
+        </nav>
+    </div>
+    <div class="mt-2 mt-md-0">
+        <a href="#" class="btn btn-success" data-toggle="modal" data-target="#mdlNew" title="Add new item">Add new invoice</a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+
+        <div class="card">
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table id="user-list" class="table table-lg">
+                        <thead>
+                            <tr>
+                                
+                                <th>Code Number</th>
+                                <th>Contract Number</th>
+                                <th>Contract Date</th>
+                                <th>Customer Name</th>
+                                <th>Property Name</th>
+                                <th>Project Name</th>
+                                <th>Payment Method</th>
+                                <th>Unit Price</th>
+                                <th>Booking Amount</th>
+                                <th class="text-right">Action</th>
+                               
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                            @foreach (var invoice in Model)
+                            {
+                                <tr>
+
+                                    <td>@invoice.CodeNumber</td>
+                                    <td>@invoice.ContractNumber</td>
+                                    <td>@invoice.ContractDate.ToString("dd/MM/yyyy")</td>
+                                    <td>@invoice.CustomerName</td>
+                                    <td>@invoice.PropertyName</td>
+                                    <td>@invoice.ProjectName</td>
+
+                                    <td>@(@invoice.IsCashPayment ? "Cash" : "Installment")</td>
+
+                                    <td>@invoice.UnitPrice</td>
+                                    <td>@invoice.BookingAmount</td>
+
+                                    <td class="text-right">
+                                        <div class="dropdown">
+                                            <a href="#" data-toggle="dropdown"
+                                               class="btn btn-floating"
+                                               aria-haspopup="true" aria-expanded="false">
+                                                <i class="ti-more-alt"></i>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-right">
+                                                <a href="#" class="dropdown-item text-success">Details</a>
+                                                <a href="#" class="dropdown-item text-success">Edit</a>
+                                                <a href="#" class="dropdown-item text-danger">Delete</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

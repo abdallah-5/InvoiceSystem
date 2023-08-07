@@ -1,0 +1,15 @@
+C:\Users\zezo\Desktop\Invoices\Invoices.BLL\bin\Debug\net6.0\Invoices.BLL.deps.json
+C:\Users\zezo\Desktop\Invoices\Invoices.BLL\bin\Debug\net6.0\Invoices.BLL.dll
+C:\Users\zezo\Desktop\Invoices\Invoices.BLL\bin\Debug\net6.0\Invoices.BLL.pdb
+C:\Users\zezo\Desktop\Invoices\Invoices.BLL\bin\Debug\net6.0\Invoices.DAL.dll
+C:\Users\zezo\Desktop\Invoices\Invoices.BLL\bin\Debug\net6.0\Invoices.DAL.pdb
+C:\Users\zezo\Desktop\Invoices\Invoices.BLL\obj\Debug\net6.0\Invoices.BLL.csproj.AssemblyReference.cache
+C:\Users\zezo\Desktop\Invoices\Invoices.BLL\obj\Debug\net6.0\Invoices.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zezo\Desktop\Invoices\Invoices.BLL\obj\Debug\net6.0\Invoices.BLL.AssemblyInfoInputs.cache
+C:\Users\zezo\Desktop\Invoices\Invoices.BLL\obj\Debug\net6.0\Invoices.BLL.AssemblyInfo.cs
+C:\Users\zezo\Desktop\Invoices\Invoices.BLL\obj\Debug\net6.0\Invoices.BLL.csproj.CoreCompileInputs.cache
+C:\Users\zezo\Desktop\Invoices\Invoices.BLL\obj\Debug\net6.0\Invoices.BLL.csproj.CopyComplete
+C:\Users\zezo\Desktop\Invoices\Invoices.BLL\obj\Debug\net6.0\Invoices.BLL.dll
+C:\Users\zezo\Desktop\Invoices\Invoices.BLL\obj\Debug\net6.0\refint\Invoices.BLL.dll
+C:\Users\zezo\Desktop\Invoices\Invoices.BLL\obj\Debug\net6.0\Invoices.BLL.pdb
+C:\Users\zezo\Desktop\Invoices\Invoices.BLL\obj\Debug\net6.0\ref\Invoices.BLL.dll
